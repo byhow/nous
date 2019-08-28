@@ -1,0 +1,19 @@
+docker: 
+  path: ./
+  name: Dockerfile
+  root: true
+npm:
+  path: ./npm
+  name: package.json
+  config: ./.npmrc
+java: 
+  path: ./java
+  config: application.properties
+  pkg: mvn
+  name: pom.xml
+py:
+  path: ./python
+  pkg: pip
+  name: requirements.txt
+
+
