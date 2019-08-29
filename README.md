@@ -32,4 +32,41 @@ And this has to be a opionated optimal practice.
 - [JSON](https://en.wikipedia.org/wiki/JSON)
 - [YAML](https://en.wikipedia.org/wiki/YAML) 
 
-## 
+## Platforms
+- WSL
+- Windows
+- Linux
+- MacOS
+
+
+## Supported package managers
+
+- Java: 
+    - Maven 
+    - Gradle
+- JavaScript:
+    - NPM
+    - yarn
+- Python: 
+    - pip
+    - conda
+- Ruby
+    - Gem
+- PHP
+    - Composer
+- C++
+    - [placeholder]
+- C#
+    - NuGet
+- Rust
+- Go
+- Docker
+- Scripts
+    - powershell
+    - bash
+
+## [Future Releases]
+- Support config file for editing
+    - editorconfig
+    - prettier
+    - ...
