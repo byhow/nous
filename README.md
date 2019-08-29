@@ -33,40 +33,41 @@ And this has to be a opionated optimal practice.
 - [YAML](https://en.wikipedia.org/wiki/YAML) 
 
 ## Platforms
+
 - WSL
 - Windows
 - Linux
 - MacOS
 
-
 ## Supported package managers
 
-- Java: 
-    - Maven 
-    - Gradle
+- Java:
+  - Maven
+  - Gradle
 - JavaScript:
-    - NPM
-    - yarn
-- Python: 
-    - pip
-    - conda
+  - NPM
+  - yarn
+- Python:
+  - pip
+  - conda
 - Ruby
-    - Gem
+  - Gem
 - PHP
-    - Composer
+  - Composer
 - C++
-    - [placeholder]
+  - [placeholder]
 - C#
-    - NuGet
+  - NuGet
 - Rust
 - Go
 - Docker
 - Scripts
-    - powershell
-    - bash
+  - powershell
+  - bash
 
 ## [Future Releases]
+
 - Support config file for editing
-    - editorconfig
-    - prettier
-    - ...
+  - editorconfig
+  - prettier
+  - ...
