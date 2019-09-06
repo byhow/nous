@@ -1,13 +1,13 @@
-const program = require('commander');
+import { command } from './lib/cli_fs';
  
-program
+command
   .option('-d, --debug', 'output extra debugging')
   .option('-s, --small', 'small pizza size')
   .option('-p, --pizza-type <type>', 'flavour of pizza');
  
-program.parse(process.argv);
+command.parse(process.argv);
  
-if (program.debug) console.log(program.opts());
+if (command.debug) console.log(command.opts());
 console.log('pizza details:');
-if (program.small) console.log('- small pizza size');
-if (program.pizzaType) console.log(`- ${program.pizzaType}`);
+if (command.small) console.log('- small pizza size');
+if (command.pizzaType) console.log(`- ${command.pizzaType}`);

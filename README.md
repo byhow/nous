@@ -11,15 +11,16 @@ By the way, it generates a new app for you no matter what kind of app you are tr
 - For system level homework, C++ and assembly stuff, it will be annoying to sort out files on your own based on the undetermined best practice of the file hierarchy, makefiles and goals
 - For database evaluation, pulls docker and point you, or scripted out the referenced path for the database.
 - Also must generate all test for you at first. Big fan of TDD.
+- link up remote git repo for remote dependencies management
 
 It scaffhold all the dependencies issues for your application, no matter what platform you runs on.
 It support frontend frameworks, backend frameworks, database communications, api gateway and virtualization
 
 All it does is script all the dependencies first, and run:
 
-- `nous -mvn install sonar`
-- `nous -pip install pytorch`
-- `nous -npm -g install lit-html`
+- `ns -mvn install sonar`
+- `ns -pip install pytorch`
+- `ns -npm -g install lit-html`
 
 This can essentially acted out as an evaluation or perfomance testing project.
 
