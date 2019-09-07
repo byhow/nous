@@ -1,13 +1,14 @@
-import { command } from '../lib/command_exec';
- 
-command
-  .option('-d, --debug', 'output extra debugging')
-  .option('-s, --small', 'small pizza size')
-  .option('-p, --pizza-type <type>', 'flavour of pizza');
- 
-command.parse(process.argv);
- 
-if (command.debug) console.log(command.opts());
-console.log('pizza details:');
-if (command.small) console.log('- small pizza size');
-if (command.pizzaType) console.log(`- ${command.pizzaType}`);
+#!/usr/bin/env node
+'use strict';
+
+// unable to pass args
+const { execFile } = require('child_process');
+execFile('./lib/command_exec.js', '/usr/bin/env node', (error, stdout, stderr) => {
+  if (error) {
+    console.error(`exec error: ${error}`);
+    return;
+  } else if (stderr) {  
+    console.error(`stderr: ${stderr}`);
+  } 
+  console.log(`stdout: ${stdout}`);
+});
