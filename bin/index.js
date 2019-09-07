@@ -1,4 +1,4 @@
-import { command } from './lib/cli_fs';
+import { command } from '../lib/command_exec';
  
 command
   .option('-d, --debug', 'output extra debugging')

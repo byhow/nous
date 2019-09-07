@@ -2,9 +2,11 @@
   "name": "nous",
   "version": "1.0.0",
   "description": "A better full stack package manager",
-  "main": "app.js",
+  "main": "bin/index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "start": "npm run build && node ./lib/command_exec.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,17 @@
   },
   "homepage": "https://github.com/cdvr/nous#readme",
   "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
     "covgen": "^3.1.0",
     "eslint": "^6.3.0"
   },
   "dependencies": {
     "commander": "^3.0.1"
+  },
+  "bin": {
+    "ns": "./bin/index.js"
   }
 }
