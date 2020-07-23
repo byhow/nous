@@ -1,6 +1,6 @@
 # Nous
 
-Nous is a universal cross-platform package manager and generator. It consists of:
+Nous is a universal cross-platform package manager and api builder. It consists of:
 * Command line tools
 * Dependency visualizer, which is mostly for full stack web apps and other applications which requires multiple components across different toolings.
   
@@ -10,8 +10,8 @@ you would have to find all the files in all kinds of weird locations. Why not us
 to manage all your dependencies clutter and forget about it all in one line?
 
 * It also generates a new app for you no matter what kind of app you are trying to work with.
-  - For web apps, it pulls a docker/vagrant container for spring, react, couchbase and wires all components automatically
-  - For System level homework, C++ and assembly stuff, it will be annoying to sort out files on your own based on the undetermined best practice of the file hierarchy and Makefiles
+  - For web apps, it pulls a docker/vagrant container for spring, react, CouchBase and wires all components automatically
+  - For System level homework, C++ and assembly stuff, it will be annoying to sort out files on your own based on the undetermined best practice of the file hierarchy and Makefile
   - To ensure TDD, it will generate test cases for APIs you are designing
   - Link up remote git repo for remote dependencies management
 
