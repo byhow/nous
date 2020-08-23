@@ -1,0 +1,44 @@
+{
+  "name": "nous",
+  "version": "0.0.1beta",
+  "description": "A universal package manager and api builder.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "start": "node ./index.js",
+    "prepublishOnly": "npm test && npm start",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "bin": {
+    "ns": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duckino/nous.git"
+  },
+  "author": "duckino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duckino/nous/issues"
+  },
+  "homepage": "https://github.com/duckino/nous#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.1",
+    "figlet": "^1.5.0",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "prettier": "^2.0.5"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "lodash": "^4.17.20"
+  }
+}

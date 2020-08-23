@@ -1,16 +1,17 @@
-FROM golang:1.14
+FROM node:13
 
-RUN apk update && apk upgrade && \
-    apk add --no-cache bash git openssh
+# Create app directory
+WORKDIR /usr/src/app
 
-WORKDIR /app
+# Install app dependencies
+# A wildcard is used to ensure both package.json AND package-lock.json are copied
+# where available (npm@5+)
+COPY package*.json ./
 
-COPY go.mod go.sum ./
+RUN npm install
+# If you are building your code for production
+# RUN npm ci --only=production
 
-RUN go mod download
-
+# Bundle app source
 COPY . .
-
-RUN make build
-
-CMD ["./bin/ns"]
+RUN npm run build && npm test
