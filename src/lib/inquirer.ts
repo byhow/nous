@@ -1,18 +1,19 @@
-const inquirer = require('inquirer');
+import inquirer from 'inquirer';
+import { Answer } from '../models/model';
 
-module.exports = {
-  askApplicationType: () => {
+export async function askApplicationType(): Promise<Answer> {
     const questions = [
-      {
-        name: 'application',
-        type: 'list',
-        message: 'Enter the type of application you are building:',
-        choices: ['Web App', 'Mobile App', 'Command Line App'],
-      }
+        {
+            name: 'application',
+            type: 'list',
+            message: 'Enter the type of application you are building:',
+            choices: ['Web App', 'Mobile App', 'Command Line App'],
+        },
     ];
     return inquirer.prompt(questions);
-  },
-  getApplicationLanguage: (appType) => {
+}
+
+export async function getApplicationLanguage(appType: Answer): Promise<Answer | null> {
     switch (appType.application) {
         case 'Web App':
             const web = inquirer.prompt([
@@ -37,7 +38,7 @@ module.exports = {
                     message: 'What is the mobile platform you would like to use?',
                     type: 'list',
                     choices: ['Android', 'iOS', 'Cross-platform'],
-                }
+                },
             ]);
             return mobile;
         case 'Command Line App':
@@ -46,11 +47,11 @@ module.exports = {
                     name: 'cliType',
                     message: 'What is the language you would like to use?',
                     choices: ['C', 'Rust', 'Go', 'C++'],
-                }
+                },
             ]);
             return cli;
         default:
             console.error(`ERROR! GOT UNKNOWN INPUT ${appType.application}`);
+            return null;
     }
-  }
-};
+}
