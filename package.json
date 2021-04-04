@@ -28,10 +28,13 @@
   },
   "homepage": "https://github.com/duckino/nous#readme",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
     "configstore": "^5.0.1",
+    "eslint": "^7.23.0",
     "figlet": "^1.5.0",
     "inquirer": "^7.3.3",
     "minimist": "^1.2.5",
