@@ -1,3 +1,3 @@
 export interface Answer {
-    application: string;
+  application: string;
 }
