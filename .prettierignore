@@ -1,0 +1,4 @@
+# Ignore artifacts:
+dist
+plugins
+pnpm-lock.yaml

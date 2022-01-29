@@ -1,4 +1,4 @@
-docker: 
+docker:
   path: ./
   name: Dockerfile
   root: true
@@ -6,7 +6,7 @@ npm:
   path: ./npm
   name: package.json
   config: ./.npmrc
-java: 
+java:
   path: ./java
   config: application.properties
   pkg: mvn
@@ -15,5 +15,3 @@ py:
   path: ./python
   pkg: pip
   name: requirements.txt
-
-
