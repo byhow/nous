@@ -10,21 +10,22 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x, 16.x]
+        node-version: [16.x]
 
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2.0.1
-        with:
-          version: 6.15.1
+      - name: Check out the branch
+        uses: actions/checkout@v3
 
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
 
-      - run: pnpm i
-      - run: pnpm build
-      - run: pnpm test
+      - name: Install yarn packages
+        # consider use --check-cache if needed
+        run: yarn install --immutable
+
+      - name: Lint
+        run: yarn lint
+        env:
+          CI: true
