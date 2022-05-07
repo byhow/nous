@@ -26,7 +26,7 @@
   "homepage": "https://github.com/byhow/nous#readme",
   "dependencies": {
     "chalk": "^5.0.0",
-    "chalk-animation": "^1.6.0",
+    "chalk-animation": "^2.0.2",
     "commander": "^8.3.0",
     "figlet": "^1.5.2",
     "fs-extra": "^10.0.0",
