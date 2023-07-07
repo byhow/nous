@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/figlet", "npm:1.5.4"],\
             ["@types/gradient-string", "npm:1.1.2"],\
             ["@types/inquirer", "npm:8.2.1"],\
-            ["@types/node", "npm:17.0.31"],\
+            ["@types/node", "npm:17.0.45"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.22.0"],\
             ["@typescript-eslint/parser", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.22.0"],\
             ["chalk", "npm:5.0.1"],\
@@ -314,10 +314,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:17.0.31", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.31-d8d26aa013-704618350f.zip/node_modules/@types/node/",\
+        ["npm:17.0.45", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.45-fdb38d1624-aa04366b91.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:17.0.31"]\
+            ["@types/node", "npm:17.0.45"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:20.4.0", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-20.4.0-2eb9c50cc4-8ad632ee13.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:20.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -336,7 +343,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-through-npm-0.0.30-59be01cca3-9578470db0.zip/node_modules/@types/through/",\
           "packageDependencies": [\
             ["@types/through", "npm:0.0.30"],\
-            ["@types/node", "npm:17.0.31"]\
+            ["@types/node", "npm:20.4.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2854,7 +2861,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/figlet", "npm:1.5.4"],\
             ["@types/gradient-string", "npm:1.1.2"],\
             ["@types/inquirer", "npm:8.2.1"],\
-            ["@types/node", "npm:17.0.31"],\
+            ["@types/node", "npm:17.0.45"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.22.0"],\
             ["@typescript-eslint/parser", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.22.0"],\
             ["chalk", "npm:5.0.1"],\
@@ -3761,7 +3768,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],\
             ["@tsconfig/node14", "npm:1.0.1"],\
             ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", "npm:17.0.31"],\
+            ["@types/node", "npm:17.0.45"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
