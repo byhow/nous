@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@types/chalk-animation", "npm:1.6.1"],\
-            ["@types/figlet", "npm:1.5.4"],\
+            ["@types/figlet", "npm:1.5.6"],\
             ["@types/gradient-string", "npm:1.1.2"],\
             ["@types/inquirer", "npm:8.2.1"],\
             ["@types/node", "npm:17.0.45"],\
@@ -44,7 +44,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk-animation", "npm:2.0.2"],\
             ["commander", "npm:8.3.0"],\
             ["eslint", "npm:8.15.0"],\
-            ["figlet", "npm:1.5.2"],\
+            ["figlet", "npm:1.6.0"],\
             ["fs-extra", "npm:10.1.0"],\
             ["gradient-string", "npm:2.0.1"],\
             ["husky", "npm:7.0.4"],\
@@ -298,10 +298,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/figlet", [\
-        ["npm:1.5.4", {\
-          "packageLocation": "./.yarn/cache/@types-figlet-npm-1.5.4-7cce97728b-25390eaa1a.zip/node_modules/@types/figlet/",\
+        ["npm:1.5.6", {\
+          "packageLocation": "./.yarn/cache/@types-figlet-npm-1.5.6-7f4715a302-f36eb8cb9d.zip/node_modules/@types/figlet/",\
           "packageDependencies": [\
-            ["@types/figlet", "npm:1.5.4"]\
+            ["@types/figlet", "npm:1.5.6"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1680,10 +1680,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["figlet", [\
-        ["npm:1.5.2", {\
-          "packageLocation": "./.yarn/cache/figlet-npm-1.5.2-5f7d8f3af4-cc86039166.zip/node_modules/figlet/",\
+        ["npm:1.6.0", {\
+          "packageLocation": "./.yarn/cache/figlet-npm-1.6.0-57df89053a-7455df4198.zip/node_modules/figlet/",\
           "packageDependencies": [\
-            ["figlet", "npm:1.5.2"]\
+            ["figlet", "npm:1.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2921,7 +2921,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["nous", "workspace:."],\
             ["@types/chalk-animation", "npm:1.6.1"],\
-            ["@types/figlet", "npm:1.5.4"],\
+            ["@types/figlet", "npm:1.5.6"],\
             ["@types/gradient-string", "npm:1.1.2"],\
             ["@types/inquirer", "npm:8.2.1"],\
             ["@types/node", "npm:17.0.45"],\
@@ -2931,7 +2931,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk-animation", "npm:2.0.2"],\
             ["commander", "npm:8.3.0"],\
             ["eslint", "npm:8.15.0"],\
-            ["figlet", "npm:1.5.2"],\
+            ["figlet", "npm:1.6.0"],\
             ["fs-extra", "npm:10.1.0"],\
             ["gradient-string", "npm:2.0.1"],\
             ["husky", "npm:7.0.4"],\
