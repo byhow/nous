@@ -53,7 +53,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:12.4.1"],\
             ["nanospinner", "npm:1.1.0"],\
             ["nodemon", "npm:2.0.22"],\
-            ["prettier", "npm:2.6.2"],\
+            ["prettier", "npm:2.8.8"],\
             ["ts-node", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:10.7.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=bda367"]\
           ],\
@@ -2940,7 +2940,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["lint-staged", "npm:12.4.1"],\
             ["nanospinner", "npm:1.1.0"],\
             ["nodemon", "npm:2.0.22"],\
-            ["prettier", "npm:2.6.2"],\
+            ["prettier", "npm:2.8.8"],\
             ["ts-node", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:10.7.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.5#~builtin<compat/typescript>::version=4.9.5&hash=bda367"]\
           ],\
@@ -3167,10 +3167,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["prettier", [\
-        ["npm:2.6.2", {\
-          "packageLocation": "./.yarn/cache/prettier-npm-2.6.2-05918420da-48d08dde8e.zip/node_modules/prettier/",\
+        ["npm:2.8.8", {\
+          "packageLocation": "./.yarn/cache/prettier-npm-2.8.8-430828a36c-b49e409431.zip/node_modules/prettier/",\
           "packageDependencies": [\
-            ["prettier", "npm:2.6.2"]\
+            ["prettier", "npm:2.8.8"]\
           ],\
           "linkType": "HARD"\
         }]\
