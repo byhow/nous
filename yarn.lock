@@ -215,9 +215,9 @@ __metadata:
   linkType: hard
 
 "@types/figlet@npm:^1.5.4":
-  version: 1.5.4
-  resolution: "@types/figlet@npm:1.5.4"
-  checksum: 25390eaa1a24233b05ec85771cd1a134477ee56717cf564b625cd2133fda963dc78942cfd2303e364406ee0126e722e94761d8c577d74a25820e6b33090a0e32
+  version: 1.5.6
+  resolution: "@types/figlet@npm:1.5.6"
+  checksum: f36eb8cb9d8f91f6539b71be0ca10bbf82a04e96ed0f11f8e1a03760cd85ee2994bdf7c35164acf7194bb5d2855d8b7fe98d493729d238aeca46dd95cc15c6c3
   languageName: node
   linkType: hard
 
@@ -1322,9 +1322,11 @@ __metadata:
   linkType: hard
 
 "figlet@npm:^1.5.2":
-  version: 1.5.2
-  resolution: "figlet@npm:1.5.2"
-  checksum: cc860391669b44e119871d589e09a2814aa86351726a5791e0d3e2d098e4fc37171c85fcfed13f4e9000995bd004dc6dbf848da5fe458cf1477e776b7318986f
+  version: 1.6.0
+  resolution: "figlet@npm:1.6.0"
+  bin:
+    figlet: bin/index.js
+  checksum: 7455df4198ab4e260310a2f0bbd8970b8a6c757de16b40f451944eac2a3299f6935b1f40d1cf54d3235c147c9f65ae465533c054ecb7656c076b5cc6037d9274
   languageName: node
   linkType: hard
 
