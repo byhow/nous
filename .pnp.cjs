@@ -47,7 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["figlet", "npm:1.6.0"],\
             ["fs-extra", "npm:10.1.0"],\
             ["gradient-string", "npm:2.0.1"],\
-            ["husky", "npm:7.0.4"],\
+            ["husky", "npm:8.0.3"],\
             ["inquirer", "npm:8.2.4"],\
             ["kleur", "npm:4.1.4"],\
             ["lint-staged", "npm:12.4.1"],\
@@ -2064,10 +2064,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["husky", [\
-        ["npm:7.0.4", {\
-          "packageLocation": "./.yarn/cache/husky-npm-7.0.4-917ba035c6-c6ec4af63d.zip/node_modules/husky/",\
+        ["npm:8.0.3", {\
+          "packageLocation": "./.yarn/cache/husky-npm-8.0.3-b0b59c5127-837bc7e441.zip/node_modules/husky/",\
           "packageDependencies": [\
-            ["husky", "npm:7.0.4"]\
+            ["husky", "npm:8.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2967,7 +2967,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["figlet", "npm:1.6.0"],\
             ["fs-extra", "npm:10.1.0"],\
             ["gradient-string", "npm:2.0.1"],\
-            ["husky", "npm:7.0.4"],\
+            ["husky", "npm:8.0.3"],\
             ["inquirer", "npm:8.2.4"],\
             ["kleur", "npm:4.1.4"],\
             ["lint-staged", "npm:12.4.1"],\
