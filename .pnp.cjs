@@ -49,7 +49,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gradient-string", "npm:2.0.1"],\
             ["husky", "npm:8.0.3"],\
             ["inquirer", "npm:8.2.4"],\
-            ["kleur", "npm:4.1.4"],\
+            ["kleur", "npm:4.1.5"],\
             ["lint-staged", "npm:12.5.0"],\
             ["nanospinner", "npm:1.1.0"],\
             ["nodemon", "npm:2.0.22"],\
@@ -2425,10 +2425,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["kleur", [\
-        ["npm:4.1.4", {\
-          "packageLocation": "./.yarn/cache/kleur-npm-4.1.4-7a73ff57c6-7f6db36e37.zip/node_modules/kleur/",\
+        ["npm:4.1.5", {\
+          "packageLocation": "./.yarn/cache/kleur-npm-4.1.5-46b6135f41-1dc476e327.zip/node_modules/kleur/",\
           "packageDependencies": [\
-            ["kleur", "npm:4.1.4"]\
+            ["kleur", "npm:4.1.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2976,7 +2976,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gradient-string", "npm:2.0.1"],\
             ["husky", "npm:8.0.3"],\
             ["inquirer", "npm:8.2.4"],\
-            ["kleur", "npm:4.1.4"],\
+            ["kleur", "npm:4.1.5"],\
             ["lint-staged", "npm:12.5.0"],\
             ["nanospinner", "npm:1.1.0"],\
             ["nodemon", "npm:2.0.22"],\
