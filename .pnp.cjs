@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/figlet", "npm:1.5.6"],\
             ["@types/gradient-string", "npm:1.1.2"],\
             ["@types/inquirer", "npm:8.2.1"],\
-            ["@types/node", "npm:17.0.45"],\
+            ["@types/node", "npm:18.16.19"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["@typescript-eslint/parser", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["chalk", "npm:5.0.1"],\
@@ -393,10 +393,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:17.0.45", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.45-fdb38d1624-aa04366b91.zip/node_modules/@types/node/",\
+        ["npm:18.16.19", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.16.19-aada4da69c-63c31f0961.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:17.0.45"]\
+            ["@types/node", "npm:18.16.19"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -2964,7 +2964,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/figlet", "npm:1.5.6"],\
             ["@types/gradient-string", "npm:1.1.2"],\
             ["@types/inquirer", "npm:8.2.1"],\
-            ["@types/node", "npm:17.0.45"],\
+            ["@types/node", "npm:18.16.19"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["@typescript-eslint/parser", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["chalk", "npm:5.0.1"],\
@@ -3862,7 +3862,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@tsconfig/node12", "npm:1.0.9"],\
             ["@tsconfig/node14", "npm:1.0.1"],\
             ["@tsconfig/node16", "npm:1.0.2"],\
-            ["@types/node", "npm:17.0.45"],\
+            ["@types/node", "npm:18.16.19"],\
             ["@types/swc__core", null],\
             ["@types/swc__wasm", null],\
             ["@types/typescript", null],\
