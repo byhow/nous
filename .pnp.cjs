@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["chalk", "npm:5.3.0"],\
             ["chalk-animation", "npm:2.0.3"],\
-            ["commander", "npm:8.3.0"],\
+            ["commander", "npm:11.0.0"],\
             ["eslint", "npm:8.45.0"],\
             ["figlet", "npm:1.6.0"],\
             ["fs-extra", "npm:10.1.0"],\
@@ -1210,10 +1210,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["commander", [\
-        ["npm:8.3.0", {\
-          "packageLocation": "./.yarn/cache/commander-npm-8.3.0-c0d18c66d5-0f82321821.zip/node_modules/commander/",\
+        ["npm:11.0.0", {\
+          "packageLocation": "./.yarn/cache/commander-npm-11.0.0-7def992f0c-6621954e1e.zip/node_modules/commander/",\
           "packageDependencies": [\
-            ["commander", "npm:8.3.0"]\
+            ["commander", "npm:11.0.0"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -2964,7 +2964,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/parser", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["chalk", "npm:5.3.0"],\
             ["chalk-animation", "npm:2.0.3"],\
-            ["commander", "npm:8.3.0"],\
+            ["commander", "npm:11.0.0"],\
             ["eslint", "npm:8.45.0"],\
             ["figlet", "npm:1.6.0"],\
             ["fs-extra", "npm:10.1.0"],\
