@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.45.0"],\
             ["figlet", "npm:1.6.0"],\
             ["fs-extra", "npm:10.1.0"],\
-            ["gradient-string", "npm:2.0.1"],\
+            ["gradient-string", "npm:2.0.2"],\
             ["husky", "npm:8.0.3"],\
             ["inquirer", "npm:8.2.4"],\
             ["kleur", "npm:4.1.4"],\
@@ -1941,15 +1941,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["gradient-string", [\
-        ["npm:2.0.1", {\
-          "packageLocation": "./.yarn/cache/gradient-string-npm-2.0.1-e8f49df1be-889b099ed8.zip/node_modules/gradient-string/",\
-          "packageDependencies": [\
-            ["gradient-string", "npm:2.0.1"],\
-            ["chalk", "npm:4.1.2"],\
-            ["tinygradient", "npm:1.1.5"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.0.2", {\
           "packageLocation": "./.yarn/cache/gradient-string-npm-2.0.2-5cb6f634a3-3b3cdfff83.zip/node_modules/gradient-string/",\
           "packageDependencies": [\
@@ -2977,7 +2968,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.45.0"],\
             ["figlet", "npm:1.6.0"],\
             ["fs-extra", "npm:10.1.0"],\
-            ["gradient-string", "npm:2.0.1"],\
+            ["gradient-string", "npm:2.0.2"],\
             ["husky", "npm:8.0.3"],\
             ["inquirer", "npm:8.2.4"],\
             ["kleur", "npm:4.1.4"],\
