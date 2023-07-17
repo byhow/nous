@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM ubuntu:14.04.5
+FROM ubuntu:22.04
 
 # Install.
 RUN \
