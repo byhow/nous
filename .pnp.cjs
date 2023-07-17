@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["@typescript-eslint/parser", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["chalk", "npm:5.0.1"],\
-            ["chalk-animation", "npm:2.0.2"],\
+            ["chalk-animation", "npm:2.0.3"],\
             ["commander", "npm:8.3.0"],\
             ["eslint", "npm:8.45.0"],\
             ["figlet", "npm:1.6.0"],\
@@ -1050,12 +1050,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chalk-animation", [\
-        ["npm:2.0.2", {\
-          "packageLocation": "./.yarn/cache/chalk-animation-npm-2.0.2-d8ca5ba2f0-aa846c2d45.zip/node_modules/chalk-animation/",\
+        ["npm:2.0.3", {\
+          "packageLocation": "./.yarn/cache/chalk-animation-npm-2.0.3-713e52490d-7e87d49fb8.zip/node_modules/chalk-animation/",\
           "packageDependencies": [\
-            ["chalk-animation", "npm:2.0.2"],\
+            ["chalk-animation", "npm:2.0.3"],\
             ["chalk", "npm:4.1.2"],\
-            ["gradient-string", "npm:2.0.1"],\
+            ["gradient-string", "npm:2.0.2"],\
             ["meow", "npm:10.1.2"]\
           ],\
           "linkType": "HARD"\
@@ -1950,6 +1950,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/gradient-string-npm-2.0.1-e8f49df1be-889b099ed8.zip/node_modules/gradient-string/",\
           "packageDependencies": [\
             ["gradient-string", "npm:2.0.1"],\
+            ["chalk", "npm:4.1.2"],\
+            ["tinygradient", "npm:1.1.5"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:2.0.2", {\
+          "packageLocation": "./.yarn/cache/gradient-string-npm-2.0.2-5cb6f634a3-3b3cdfff83.zip/node_modules/gradient-string/",\
+          "packageDependencies": [\
+            ["gradient-string", "npm:2.0.2"],\
             ["chalk", "npm:4.1.2"],\
             ["tinygradient", "npm:1.1.5"]\
           ],\
@@ -2968,7 +2977,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@typescript-eslint/eslint-plugin", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["@typescript-eslint/parser", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["chalk", "npm:5.0.1"],\
-            ["chalk-animation", "npm:2.0.2"],\
+            ["chalk-animation", "npm:2.0.3"],\
             ["commander", "npm:8.3.0"],\
             ["eslint", "npm:8.45.0"],\
             ["figlet", "npm:1.6.0"],\
