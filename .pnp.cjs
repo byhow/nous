@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chalk-animation", "npm:1.6.1"],\
             ["@types/figlet", "npm:1.5.6"],\
             ["@types/gradient-string", "npm:1.1.2"],\
-            ["@types/inquirer", "npm:8.2.1"],\
+            ["@types/inquirer", "npm:8.2.6"],\
             ["@types/node", "npm:18.16.19"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["@typescript-eslint/parser", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs-extra", "npm:10.1.0"],\
             ["gradient-string", "npm:2.0.2"],\
             ["husky", "npm:8.0.3"],\
-            ["inquirer", "npm:8.2.4"],\
+            ["inquirer", "npm:8.2.5"],\
             ["kleur", "npm:4.1.5"],\
             ["lint-staged", "npm:12.5.0"],\
             ["nanospinner", "npm:1.1.0"],\
@@ -359,10 +359,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/inquirer", [\
-        ["npm:8.2.1", {\
-          "packageLocation": "./.yarn/cache/@types-inquirer-npm-8.2.1-b3593fd8cc-5362d0b1cb.zip/node_modules/@types/inquirer/",\
+        ["npm:8.2.6", {\
+          "packageLocation": "./.yarn/cache/@types-inquirer-npm-8.2.6-07ead6189e-d09c3b6bbf.zip/node_modules/@types/inquirer/",\
           "packageDependencies": [\
-            ["@types/inquirer", "npm:8.2.1"],\
+            ["@types/inquirer", "npm:8.2.6"],\
             ["@types/through", "npm:0.0.30"],\
             ["rxjs", "npm:7.5.5"]\
           ],\
@@ -2185,10 +2185,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["inquirer", [\
-        ["npm:8.2.4", {\
-          "packageLocation": "./.yarn/cache/inquirer-npm-8.2.4-a2a5fb3187-dfcb6529d3.zip/node_modules/inquirer/",\
+        ["npm:8.2.5", {\
+          "packageLocation": "./.yarn/cache/inquirer-npm-8.2.5-ffce7548f9-f13ee4c444.zip/node_modules/inquirer/",\
           "packageDependencies": [\
-            ["inquirer", "npm:8.2.4"],\
+            ["inquirer", "npm:8.2.5"],\
             ["ansi-escapes", "npm:4.3.2"],\
             ["chalk", "npm:4.1.2"],\
             ["cli-cursor", "npm:3.1.0"],\
@@ -2958,7 +2958,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/chalk-animation", "npm:1.6.1"],\
             ["@types/figlet", "npm:1.5.6"],\
             ["@types/gradient-string", "npm:1.1.2"],\
-            ["@types/inquirer", "npm:8.2.1"],\
+            ["@types/inquirer", "npm:8.2.6"],\
             ["@types/node", "npm:18.16.19"],\
             ["@typescript-eslint/eslint-plugin", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
             ["@typescript-eslint/parser", "virtual:c99a2bcd4eb1a4319dab45e7ee4521cb2128dd6ff2e266b32ed5987a177bd06033e14d869235454f0f167055c90733372772dc164c59d523294e6d1a17345ad3#npm:5.62.0"],\
@@ -2970,7 +2970,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fs-extra", "npm:10.1.0"],\
             ["gradient-string", "npm:2.0.2"],\
             ["husky", "npm:8.0.3"],\
-            ["inquirer", "npm:8.2.4"],\
+            ["inquirer", "npm:8.2.5"],\
             ["kleur", "npm:4.1.5"],\
             ["lint-staged", "npm:12.5.0"],\
             ["nanospinner", "npm:1.1.0"],\
