@@ -21,11 +21,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install yarn packages
+      - name: Install node packages
         # consider use --check-cache if needed
-        run: yarn install --immutable
+        run: pnpm install
 
       - name: Lint
-        run: yarn lint
+        run: pnpm lint
         env:
           CI: true
