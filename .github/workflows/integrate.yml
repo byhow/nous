@@ -24,11 +24,8 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 8
-
-      - name: Install node packages
-        # consider use --check-cache if needed
-        run: pnpm install
+          version: latest
+          run_install: true
 
       - name: Lint
         run: pnpm lint

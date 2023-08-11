@@ -61,5 +61,5 @@
       "eslint --fix"
     ]
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "^pnpm@8.6.12"
 }
