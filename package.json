@@ -29,7 +29,7 @@
     "chalk-animation": "^2.0.3",
     "commander": "^11.0.0",
     "figlet": "^1.6.0",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.0.0",
     "gradient-string": "^2.0.2",
     "inquirer": "^8.2.6",
     "kleur": "^4.1.5",
