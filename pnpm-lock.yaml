@@ -42,7 +42,7 @@ devDependencies:
     version: 1.5.8
   '@types/gradient-string':
     specifier: ^1.1.5
-    version: 1.1.5
+    version: 1.1.6
   '@types/inquirer':
     specifier: ^9.0.7
     version: 9.0.7
@@ -238,8 +238,8 @@ packages:
     resolution: {integrity: sha512-G22AUvy4Tl95XLE7jmUM8s8mKcoz+Hr+Xm9W90gJsppJq9f9tHvOGkrpn4gRX0q/cLtBdNkWtWCKDg2UDZoZvQ==}
     dev: true
 
-  /@types/gradient-string@1.1.5:
-    resolution: {integrity: sha512-Z2VPQ0q+IhrAO7XjJSjpDsoPc+CsCshRNah1IE9LCo/NzHMHylssvx73i0BAKzuaGj9cdhmgq9rLaietpYAbKQ==}
+  /@types/gradient-string@1.1.6:
+    resolution: {integrity: sha512-LkaYxluY4G5wR1M4AKQUal2q61Di1yVVCw42ImFTuaIoQVgmV0WP1xUaLB8zwb47mp82vWTpePI9JmrjEnJ7nQ==}
     dependencies:
       '@types/tinycolor2': 1.4.6
     dev: true
